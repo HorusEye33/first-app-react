@@ -1,10 +1,15 @@
+import React, { Component } from 'react';
+
+import Header from "./components/header";
+import Dish from "./components/dish";
 
 import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <p>Hola Mundo</p>
+      <Header />
+      <Dish />
     </div>
   );
 }
